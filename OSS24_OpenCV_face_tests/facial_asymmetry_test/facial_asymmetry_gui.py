@@ -59,17 +59,18 @@ def show_result(result_button, result_label, test_image_label, image_selected):
     result_button.pack_forget()
 
     # 이미지 경로 설정
-    image_path = os.path.join(os.path.dirname(__file__), '..', 'images', 'uploaded_image.png')
+    image_path = os.path.join(os.path.dirname(__file__), '..', 'images', 'uploaded_image.png')  # 이미지 경로
 
-    # 임시로 넣은 것. 나중엔 지우시오.
-    result_text = "얼굴이 맞습니까?\n진짜로?\n넌 그걸 진짜 얼굴이라고 생각하는거야?\n말도안돼 하하하"
+    # 얼굴 비대칭도 분석
+    asymmetry_score = analyze_face_asymmetry(image_path)
+    result_text = f"얼굴 대칭도 점수: {asymmetry_score}점\n(좌우 대칭에 가까울수록 고득점)"
 
     # 결과 텍스트를 업데이트
-    result_label.config(text=result_text, fg="black")
+    result_label.config(text=result_text)
 
     # 분석된 이미지를 GUI에 다시 표시
-    img = Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
-    img = img.resize((200, 200))
+    img = Image.open(image_path)
+    img = img.resize((200, 200))  # 이미지 크기 조정
     img = ImageTk.PhotoImage(img)
     test_image_label.config(image=img)
-    test_image_label.image = img
+    test_image_label.image = img  # 이미지 참조 유지
