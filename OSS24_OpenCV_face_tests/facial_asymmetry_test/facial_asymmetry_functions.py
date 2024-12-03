@@ -77,3 +77,31 @@ def show_image_in_gui(image_label, image_path):
     img = ImageTk.PhotoImage(img)
     image_label.config(image=img)
     image_label.image = img  # 참조를 유지해야 이미지가 정상 표시됨
+
+def analyze_face_asymmetry(image_path):
+    """얼굴 비대칭도 분석"""
+    # 이미지 로드
+    img = cv2.imread(image_path)
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    
+    # 얼굴 감지
+    face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+    faces = face_cascade.detectMultiScale(gray, 1.3, 5)
+
+    if len(faces) > 0:
+        # 얼굴 부분 자르기
+        x, y, w, h = faces[0]
+        face_img = img[y:y+h, x:x+w]
+
+        # 얼굴을 좌우로 나누어 비대칭 분석
+        left_side = face_img[:, :w//2]  # 좌
+        right_side = face_img[:, w//2:]  # 우
+
+        # 각 부분의 평균 색상 차이를 계산하여 비대칭도를 평가
+        left_avg = np.mean(left_side)
+        right_avg = np.mean(right_side)
+        asymmetry_score = 100 - int(abs(left_avg - right_avg) / 255 * 100)  # 차이가 클수록 점수가 낮음
+
+        return asymmetry_score
+    else:
+        return 50  # 얼굴을 찾을 수 없으면 중간값인 50점
