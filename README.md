@@ -71,7 +71,8 @@ For Art Recommendation, the program analyzes the user's facial expression to sug
 
 ## Results
 (results of this repository after running)
-
+![face_tone_result_image1](https://github.com/user-attachments/assets/a5843962-7063-441f-9184-b600f99dd4f9)
+![face_tone_result_image2](https://github.com/user-attachments/assets/ab1db491-9687-4a2d-bfc0-c137ec2b41f4)
 
 ## References
 (references)
