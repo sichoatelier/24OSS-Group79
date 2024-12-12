@@ -80,7 +80,8 @@ For Art Recommendation, upload or capture a face image, then click the "View Res
 <img width="481" alt="캡처4" src="https://github.com/user-attachments/assets/029afe85-9beb-436c-9828-2837ab0374d5" />
 
 ## References
-(references)
+[Tkinter Documentation](https://docs.python.org/3/library/tkinter.html)
+[Pillow Documentation](https://pillow.readthedocs.io/en/stable/)
 
 ## limitation
 1. Face Detection Accuracy: The CascadeClassifier from OpenCV may not perform well under poor lighting or certain angles.
