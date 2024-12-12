@@ -1,0 +1,502 @@
+[
+    {
+        "art_name": "The Persistence of Memory",
+        "artist": "Salvador Dalí",
+        "light/dark": "dark",
+        "emotion": "sad",
+        "color": "yellow",
+        "beard": "none",
+        "hair_length": "unknown",
+        "image_path": "art1.jpg"
+    },
+    {
+        "art_name": "Girl with a Pearl Earring",
+        "artist": "Johannes Vermeer",
+        "light/dark": "light",
+        "emotion": "unknown",
+        "color": "blue",
+        "beard": "none",
+        "hair_length": "medium",
+        "image_path": "art2.jpg"
+    },
+    {
+        "art_name": "Guernica",
+        "artist": "Pablo Picasso",
+        "light/dark": "dark",
+        "emotion": "angry",
+        "color": "black",
+        "beard": "none",
+        "hair_length": "short",
+        "image_path": "art3.jpg"
+    },
+    {
+        "art_name": "American Gothic",
+        "artist": "Grant Wood",
+        "light/dark": "light",
+        "emotion": "unknown",
+        "color": "white",
+        "beard": "beard",
+        "hair_length": "short",
+        "image_path": "art4.jpg"
+    },
+    {
+        "art_name": "The Hay Wain",
+        "artist": "John Constable",
+        "light/dark": "light",
+        "emotion": "happy",
+        "color": "blue",
+        "beard": "none",
+        "hair_length": "unknown",
+        "image_path": "art5.jpg"
+    },
+    {
+        "art_name": "No. 5, 1948",
+        "artist": "Jackson Pollock",
+        "light/dark": "dark",
+        "emotion": "angry",
+        "color": "yellow",
+        "beard": "none",
+        "hair_length": "unknown",
+        "image_path": "art6.jpg"
+    },
+    {
+        "art_name": "Las Meninas",
+        "artist": "Diego Velázquez",
+        "light/dark": "light",
+        "emotion": "unknown",
+        "color": "white",
+        "beard": "beard",
+        "hair_length": "short",
+        "image_path": "art7.jpg"
+    },
+    {
+        "art_name": "The Arnolfini Portrait",
+        "artist": "Jan van Eyck",
+        "light/dark": "light",
+        "emotion": "happy",
+        "color": "red",
+        "beard": "none",
+        "hair_length": "medium",
+        "image_path": "art8.jpg"
+    },
+    {
+        "art_name": "The Raft of the Medusa",
+        "artist": "Théodore Géricault",
+        "light/dark": "dark",
+        "emotion": "sad",
+        "color": "black",
+        "beard": "none",
+        "hair_length": "short",
+        "image_path": "art9.jpg"
+    },
+    {
+        "art_name": "Liberty Leading the People",
+        "artist": "Eugène Delacroix",
+        "light/dark": "dark",
+        "emotion": "angry",
+        "color": "red",
+        "beard": "none",
+        "hair_length": "long",
+        "image_path": "art10.jpg"
+    },
+    {
+        "art_name": "Water Lilies",
+        "artist": "Claude Monet",
+        "light/dark": "light",
+        "emotion": "happy",
+        "color": "blue",
+        "beard": "none",
+        "hair_length": "unknown",
+        "image_path": "art11.jpg"
+    },
+    {
+        "art_name": "Whistler's Mother",
+        "artist": "James McNeill Whistler",
+        "light/dark": "dark",
+        "emotion": "sad",
+        "color": "black",
+        "beard": "none",
+        "hair_length": "unknown",
+        "image_path": "art12.jpg"
+    },
+    {
+        "art_name": "The Red Vineyard",
+        "artist": "Vincent van Gogh",
+        "light/dark": "light",
+        "emotion": "unknown",
+        "color": "red",
+        "beard": "none",
+        "hair_length": "short",
+        "image_path": "art13.jpg"
+    },
+    {
+        "art_name": "The Tower of Babel",
+        "artist": "Pieter Bruegel the Elder",
+        "light/dark": "dark",
+        "emotion": "unknown",
+        "color": "yellow",
+        "beard": "none",
+        "hair_length": "short",
+        "image_path": "art14.jpg"
+    },
+    {
+        "art_name": "Bal du moulin de la Galette",
+        "artist": "Pierre-Auguste Renoir",
+        "light/dark": "light",
+        "emotion": "happy",
+        "color": "blue",
+        "beard": "none",
+        "hair_length": "short",
+        "image_path": "art15.jpg"
+    },
+    {
+        "art_name": "Christina's World",
+        "artist": "Andrew Wyeth",
+        "light/dark": "light",
+        "emotion": "sad",
+        "color": "yellow",
+        "beard": "none",
+        "hair_length": "long",
+        "image_path": "art16.jpg"
+    },
+    {
+        "art_name": "Ophelia",
+        "artist": "John Everett Millais",
+        "light/dark": "dark",
+        "emotion": "sad",
+        "color": "blue",
+        "beard": "none",
+        "hair_length": "long",
+        "image_path": "art17.jpg"
+    },
+    {
+        "art_name": "Saturn Devouring His Son",
+        "artist": "Francisco Goya",
+        "light/dark": "dark",
+        "emotion": "angry",
+        "color": "black",
+        "beard": "beard",
+        "hair_length": "short",
+        "image_path": "art18.jpg"
+    },
+    {
+        "art_name": "The Card Players",
+        "artist": "Paul Cézanne",
+        "light/dark": "light",
+        "emotion": "unknown",
+        "color": "yellow",
+        "beard": "beard",
+        "hair_length": "short",
+        "image_path": "art19.jpg"
+    },
+    {
+        "art_name": "Starry Night Over the Rhône",
+        "artist": "Vincent van Gogh",
+        "light/dark": "dark",
+        "emotion": "happy",
+        "color": "blue",
+        "beard": "none",
+        "hair_length": "short",
+        "image_path": "art20.jpg"
+    },
+    {
+        "art_name": "The Death of Marat",
+        "artist": "Jacques-Louis David",
+        "light/dark": "dark",
+        "emotion": "sad",
+        "color": "white",
+        "beard": "none",
+        "hair_length": "short",
+        "image_path": "art21.jpg"
+    },
+    {
+        "art_name": "Napoleon Crossing the Alps",
+        "artist": "Jacques-Louis David",
+        "light/dark": "light",
+        "emotion": "unknown",
+        "color": "red",
+        "beard": "none",
+        "hair_length": "short",
+        "image_path": "art22.jpg"
+    },
+    {
+        "art_name": "The Dance",
+        "artist": "Henri Matisse",
+        "light/dark": "light",
+        "emotion": "happy",
+        "color": "red",
+        "beard": "none",
+        "hair_length": "short",
+        "image_path": "art23.jpg"
+    },
+    {
+        "art_name": "The Lady of Shalott",
+        "artist": "John William Waterhouse",
+        "light/dark": "dark",
+        "emotion": "sad",
+        "color": "blue",
+        "beard": "none",
+        "hair_length": "long",
+        "image_path": "art24.jpg"
+    },
+    {
+        "art_name": "The Fighting Temeraire",
+        "artist": "J. M. W. Turner",
+        "light/dark": "light",
+        "emotion": "happy",
+        "color": "yellow",
+        "beard": "none",
+        "hair_length": "unknown",
+        "image_path": "art25.jpg"
+    },
+    {
+        "art_name": "The Sleeping Gypsy",
+        "artist": "Henri Rousseau",
+        "light/dark": "dark",
+        "emotion": "unknown",
+        "color": "blue",
+        "beard": "none",
+        "hair_length": "long",
+        "image_path": "art26.jpg"
+    },
+    {
+        "art_name": "Portrait of Madame X",
+        "artist": "John Singer Sargent",
+        "light/dark": "light",
+        "emotion": "unknown",
+        "color": "black",
+        "beard": "none",
+        "hair_length": "long",
+        "image_path": "art27.jpg"
+    },
+    {
+        "art_name": "The School of Athens",
+        "artist": "Raphael",
+        "light/dark": "light",
+        "emotion": "happy",
+        "color": "yellow",
+        "beard": "beard",
+        "hair_length": "short",
+        "image_path": "art28.jpg"
+    },
+    {
+        "art_name": "A Sunday Afternoon on the Island of La Grande Jatte",
+        "artist": "Georges Seurat",
+        "light/dark": "light",
+        "emotion": "happy",
+        "color": "blue",
+        "beard": "none",
+        "hair_length": "unknown",
+        "image_path": "art29.jpg"
+    },
+    {
+        "art_name": "The Kiss of Judas",
+        "artist": "Giotto",
+        "light/dark": "dark",
+        "emotion": "angry",
+        "color": "red",
+        "beard": "beard",
+        "hair_length": "short",
+        "image_path": "art30.jpg"
+    },
+    {
+        "art_name": "The Madonna of the Rocks",
+        "artist": "Leonardo da Vinci",
+        "light/dark": "dark",
+        "emotion": "unknown",
+        "color": "blue",
+        "beard": "none",
+        "hair_length": "long",
+        "image_path": "art31.jpg"
+    },
+    {
+        "art_name": "Self-Portrait with Thorn Necklace and Hummingbird",
+        "artist": "Frida Kahlo",
+        "light/dark": "light",
+        "emotion": "sad",
+        "color": "red",
+        "beard": "none",
+        "hair_length": "long",
+        "image_path": "art32.jpg"
+    },
+    {
+        "art_name": "The Calling of St. Matthew",
+        "artist": "Caravaggio",
+        "light/dark": "dark",
+        "emotion": "unknown",
+        "color": "yellow",
+        "beard": "beard",
+        "hair_length": "short",
+        "image_path": "art33.jpg"
+    },
+    {
+        "art_name": "Bathers at Asnières",
+        "artist": "Georges Seurat",
+        "light/dark": "light",
+        "emotion": "happy",
+        "color": "blue",
+        "beard": "none",
+        "hair_length": "unknown",
+        "image_path": "art34.jpg"
+    },
+    {
+        "art_name": "Composition VIII",
+        "artist": "Wassily Kandinsky",
+        "light/dark": "light",
+        "emotion": "unknown",
+        "color": "yellow",
+        "beard": "none",
+        "hair_length": "unknown",
+        "image_path": "art35.jpg"
+    },
+    {
+        "art_name": "The Gleaners",
+        "artist": "Jean-François Millet",
+        "light/dark": "light",
+        "emotion": "sad",
+        "color": "yellow",
+        "beard": "none",
+        "hair_length": "unknown",
+        "image_path": "art36.jpg"
+    },
+    {
+        "art_name": "The Garden of Eden",
+        "artist": "Peter Paul Rubens",
+        "light/dark": "light",
+        "emotion": "happy",
+        "color": "blue",
+        "beard": "beard",
+        "hair_length": "short",
+        "image_path": "art37.jpg"
+    },
+    {
+        "art_name": "The Burial of the Count of Orgaz",
+        "artist": "El Greco",
+        "light/dark": "dark",
+        "emotion": "unknown",
+        "color": "black",
+        "beard": "beard",
+        "hair_length": "short",
+        "image_path": "art38.jpg"
+    },
+    {
+        "art_name": "The Milkmaid",
+        "artist": "Johannes Vermeer",
+        "light/dark": "light",
+        "emotion": "unknown",
+        "color": "yellow",
+        "beard": "none",
+        "hair_length": "medium",
+        "image_path": "art39.jpg"
+    },
+    {
+        "art_name": "The Birth of Venus",
+        "artist": "Sandro Botticelli",
+        "light/dark": "light",
+        "emotion": "happy",
+        "color": "blue",
+        "beard": "none",
+        "hair_length": "long",
+        "image_path": "art40.jpg"
+    },
+    {
+        "art_name": "Judith Beheading Holofernes",
+        "artist": "Artemisia Gentileschi",
+        "light/dark": "dark",
+        "emotion": "angry",
+        "color": "red",
+        "beard": "beard",
+        "hair_length": "short",
+        "image_path": "art41.jpg"
+    },
+    {
+        "art_name": "The Scream",
+        "artist": "Edvard Munch",
+        "light/dark": "dark",
+        "emotion": "angry",
+        "color": "red",
+        "beard": "none",
+        "hair_length": "short",
+        "image_path": "art42.jpg"
+    },
+    {
+        "art_name": "The Nude Maja",
+        "artist": "Francisco Goya",
+        "light/dark": "light",
+        "emotion": "unknown",
+        "color": "white",
+        "beard": "none",
+        "hair_length": "long",
+        "image_path": "art43.jpg"
+    },
+    {
+        "art_name": "The Death of Sardanapalus",
+        "artist": "Eugène Delacroix",
+        "light/dark": "dark",
+        "emotion": "sad",
+        "color": "red",
+        "beard": "none",
+        "hair_length": "unknown",
+        "image_path": "art44.jpg"
+    },
+    {
+        "art_name": "The Garden of Earthly Delights",
+        "artist": "Hieronymus Bosch",
+        "light/dark": "dark",
+        "emotion": "angry",
+        "color": "green",
+        "beard": "none",
+        "hair_length": "long",
+        "image_path": "art45.jpg"
+    },
+    {
+        "art_name": "The Laughing Cavalier",
+        "artist": "Frans Hals",
+        "light/dark": "light",
+        "emotion": "happy",
+        "color": "yellow",
+        "beard": "beard",
+        "hair_length": "short",
+        "image_path": "art46.jpg"
+    },
+    {
+        "art_name": "The Baptism of Christ",
+        "artist": "Piero della Francesca",
+        "light/dark": "light",
+        "emotion": "unknown",
+        "color": "blue",
+        "beard": "none",
+        "hair_length": "unknown",
+        "image_path": "art47.jpg"
+    },
+    {
+        "art_name": "The Swing",
+        "artist": "Jean-Honoré Fragonard",
+        "light/dark": "light",
+        "emotion": "happy",
+        "color": "yellow",
+        "beard": "none",
+        "hair_length": "long",
+        "image_path": "art48.jpg"
+    },
+    {
+        "art_name": "The Battle of San Romano",
+        "artist": "Paolo Uccello",
+        "light/dark": "light",
+        "emotion": "angry",
+        "color": "red",
+        "beard": "none",
+        "hair_length": "unknown",
+        "image_path": "art49.jpg"
+    },
+    {
+        "art_name": "The Triumph of Galatea",
+        "artist": "Raphael",
+        "light/dark": "light",
+        "emotion": "happy",
+        "color": "blue",
+        "beard": "none",
+        "hair_length": "long",
+        "image_path": "art50.jpg"
+    }
+]
