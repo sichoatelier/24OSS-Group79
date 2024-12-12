@@ -10,9 +10,9 @@ In the art recommendation test, we use OpenCV to analyze facial features like sk
 ## Team Member
 |Student Number|Name|Github Profile|Email|
 |--------------|----|--------------|-----|
-|2024XXXXX|황다현(조장)|(github link)|(email)|
-|202434662|전조영|(github link)|(email)|
-|202434671|조은하|https://github.com/Joeunha|whdmsgk0831@gachon.ac.kr|
+|2024XXXXX|황다현(조장)|[sichoatelier](https://github.com/sichoatelier)|satcoff28@gmail.com|
+|202434662|전조영|[joyong0](https://github.com/joyong0)|wjswhdud1119@naver.com|
+|202434671|조은하|[Joeunha](https://github.com/Joeunha)|whdmsgk0831@gachon.ac.kr|
 
 
 ## Project Structure
@@ -75,7 +75,8 @@ For Facial Asymmetry Test, the user can upload an image of their face for analys
 For Art Recommendation, upload or capture a face image, then click the "View Results" button to see the analysis results.
 ## Results
 (results of this repository after running)
-
+![face_tone_result_image1](https://github.com/user-attachments/assets/a5843962-7063-441f-9184-b600f99dd4f9)
+![face_tone_result_image2](https://github.com/user-attachments/assets/ab1db491-9687-4a2d-bfc0-c137ec2b41f4)
 
 ## References
 (references)
