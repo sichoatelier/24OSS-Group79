@@ -65,6 +65,12 @@ def save_captured_image(camera_window, video_label, test_image_label, image_sele
     image_selected["status"] = True
     enable_result_button()
 
+    # 카메라 자원 해제 및 카메라 창 닫기
+    if hasattr(video_label, 'release_camera'):
+        video_label.release_camera()  # 카메라 자원 해제
+    
+    camera_window.destroy()  # 카메라 창 닫기
+
 def capture_photo(video_label, save_path):
     """
     현재 카메라 프레임을 캡처하여 저장하는 함수.
