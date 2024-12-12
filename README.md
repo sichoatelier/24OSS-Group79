@@ -5,14 +5,14 @@ In skin tone test, we deal with ~
 
 In facial asymmetry test, we deal with ~
 
-In art recommendation test, we deal with ~
+In the art recommendation test, we use OpenCV to analyze facial features like skin tone, hair color, emotion, beard presence, and hair length, providing personalized artwork suggestions based on these unique traits.
 
 ## Team Member
 |Student Number|Name|Github Profile|Email|
 |--------------|----|--------------|-----|
 |2024XXXXX|황다현(조장)|(github link)|(email)|
 |202434662|전조영|(github link)|(email)|
-|2024XXXXX|조은하|(github link)|(email)|
+|202434671|조은하|https://github.com/Joeunha|whdmsgk0831@gachon.ac.kr|
 
 
 ## Project Structure
@@ -31,10 +31,13 @@ main_program/
 │                               (얼굴 비대칭 정도 테스트 창)
 │   └── facial_asymmetry_functions.py # 얼굴 비대칭 함수들
 │
-├── art_recommendation_test/    # 예술 작품 추천 관련 모듈
-│   ├── __init__.py             # 패키지 초기화 파일
-│   ├── art_recommendation_gui.py # GUI 코드 (예술 작품 추천 창)
-│   └── art_recommendation_functions.py # 예술 작품 추천 함수들
+├── art_recommendation_test/         # 예술 작품 추천 관련 모듈
+│   ├── __init__.py                  # 패키지 초기화 파일
+│   ├── art_recommendation.py        # 얼굴 분석 및 메인 함수
+│   ├── art_recommendation_functions.py  # 예술 작품 추천 함수들
+│   ├── art_recommendation_gui.py    # GUI 코드 (예술 작품 추천 창)
+│   ├── art.json                    # 예술 작품 정보 (JSON 파일)
+│   └── art_img/                    # 예술 작품 사진 폴더
 │
 ├── __init__.py                 # 패키지 초기화 파일
 ├── main.py                     # 메인 프로그램 파일 
@@ -54,7 +57,9 @@ random – part of Python's standard library for generating random numbers.
 
 json – part of Python's standard library for reading and parsing JSON files.
 
-Tkinter (8.6)
+Pillow (8.3.2) - Used for opening and displaying images in the GUI.
+
+Tkinter - Used for creating the GUI elements (e.g., image labels, file dialog).
 
 Tcl (8.6)
 
@@ -67,8 +72,7 @@ For Skin Tone Test, the user can either take a photo or upload an image.
 
 For Facial Asymmetry Test, the user can upload an image of their face for analysis.
 
-For Art Recommendation, the program analyzes the user's facial expression to suggest suitable artwork.
-
+For Art Recommendation, upload or capture a face image, then click the "View Results" button to see the analysis results.
 ## Results
 (results of this repository after running)
 
@@ -85,4 +89,4 @@ For Art Recommendation, the program analyzes the user's facial expression to sug
 
 4. Real-Time Performance: This program may experience performance issues when processing large amounts of data in real-time.
 
-5. Beard and Hair Length Detection: Accurate detection of beard presence and hair length is difficult. 
+5. The face detection process is reliant on two methods: Haar Cascade and DeepFace. While both are powerful, they may not always detect faces accurately, especially under poor lighting conditions, unusual angles, or occlusions (e.g., hats, glasses, etc.).
