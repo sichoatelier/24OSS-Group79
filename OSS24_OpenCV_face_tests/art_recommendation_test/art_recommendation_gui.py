@@ -7,15 +7,12 @@ from art_recommendation_test.art_recommendation import load_art_data, analyze_fa
 # art.json 파일 경로 설정
 data_path = os.path.join(os.path.dirname(__file__), "art.json")
 
-# art.json 파일 경로 설정
-
 # art.json 데이터 로드
 if not os.path.exists(data_path):
     raise FileNotFoundError(f"art.json 파일을 찾을 수 없습니다: {data_path}")
 else:
     print(f"art.json 파일이 존재합니다: {data_path}")
 art_data = load_art_data(data_path)
-
 
 def show_art_recommendation_test(main_frame, return_to_main_gui):
     """내가 작품이라면 (얼굴 종합 판정) 테스트 GUI"""
@@ -30,10 +27,10 @@ def show_art_recommendation_test(main_frame, return_to_main_gui):
     for widget in main_frame.winfo_children():
         widget.destroy()
 
-    tk.Label(main_frame, text="내가 작품이라면?", font=("Arial", 20)).pack(pady=20)
+    tk.Label(main_frame, text="내가 작품이라면?", font=("Arial", 20)).pack(pady=10)
 
     test_image_label = tk.Label(main_frame)
-    test_image_label.pack(pady=10)
+    test_image_label.pack(pady=5)
     default_image_path = os.path.join(os.path.dirname(__file__), '..', 'images', 'sample_image.png')
     default_image = Image.open(default_image_path)
     default_image = default_image.resize((200, 200))
@@ -41,21 +38,21 @@ def show_art_recommendation_test(main_frame, return_to_main_gui):
     test_image_label.config(image=default_image)
     test_image_label.image = default_image
 
-    tk.Button(main_frame, text="카메라 촬영", command=lambda: take_photo_and_save(test_image_label, image_selected, enable_result_button)).pack(side=tk.LEFT, padx=10)
-    tk.Button(main_frame, text="이미지 선택", command=lambda: upload_image_and_save(test_image_label, image_selected, enable_result_button)).pack(side=tk.LEFT, padx=10)
+    tk.Button(main_frame, text="카메라 촬영", command=lambda: take_photo_and_save(test_image_label, image_selected, enable_result_button)).pack(side=tk.LEFT, padx=5)
+    tk.Button(main_frame, text="이미지 선택", command=lambda: upload_image_and_save(test_image_label, image_selected, enable_result_button)).pack(side=tk.LEFT, padx=5)
 
     result_label = tk.Label(main_frame, text="", font=("Arial", 12), fg="blue")
-    result_label.pack(pady=10)
+    result_label.pack(pady=5)
     result_label.config(text="분석 결과 대기 중...")
 
     artwork_info_label = tk.Label(main_frame, text="", font=("Arial", 14), fg="black")
-    artwork_info_label.pack(pady=10)
+    artwork_info_label.pack(pady=5)
 
     result_button = tk.Button(main_frame, text="결과 보기", state=tk.DISABLED, command=lambda: show_result(result_label, artwork_info_label, test_image_label, return_to_main_gui, restart_test))
-    result_button.pack(pady=20)
+    result_button.pack(pady=15)
 
     back_button = tk.Button(main_frame, text="돌아가기", command=return_to_main_gui)
-    back_button.pack(pady=20)
+    back_button.pack(pady=15)
 
     def enable_result_button():
         if image_selected['status']:
