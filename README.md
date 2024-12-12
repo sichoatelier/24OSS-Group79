@@ -77,6 +77,7 @@ For Art Recommendation, upload or capture a face image, then click the "View Res
 (results of this repository after running)
 ![face_tone_result_image1](https://github.com/user-attachments/assets/a5843962-7063-441f-9184-b600f99dd4f9)
 ![face_tone_result_image2](https://github.com/user-attachments/assets/ab1db491-9687-4a2d-bfc0-c137ec2b41f4)
+<img width="481" alt="캡처4" src="https://github.com/user-attachments/assets/029afe85-9beb-436c-9828-2837ab0374d5" />
 
 ## References
 (references)
