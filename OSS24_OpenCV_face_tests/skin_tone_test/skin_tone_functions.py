@@ -168,7 +168,6 @@ def analyze_image_and_display_result(test_image_label, image_selected, enable_re
             # 얼굴 영역의 밝기 계산 (픽셀 값 평균)
             brightness = np.mean(gray_face)
             total_brightness += brightness
-            
             # 얼굴 영역에 사각형 그리기 (선택적)
             cv2.rectangle(img, (x, y), (x+w, y+h), (255, 0, 0), 2)
 
@@ -189,7 +188,7 @@ def analyze_image_and_display_result(test_image_label, image_selected, enable_re
         result_text = "얼굴을 감지할 수 없습니다."
 
     # 여기까지가 그 코드
-
+    
     # 결과 텍스트를 GUI에 표시
     result_text_label.config(text=result_text, fg="black")
 
