@@ -1,9 +1,9 @@
 # Face Visual Tests With OpenCV
 This repository is term project of Group 79 of 'Open Source Software Course' at Gachon University. It consists of three parts and each part consists of a skin tone test, facial asymmetry test, and art recommendation test.
 
-In skin tone test, we deal with ~
+In skin tone test, when a face image is inserted, the result according to the face brightness is output from the corresponding image.
 
-In facial asymmetry test, we deal with ~
+In facial asymmetry test, when a face image is inserted, the degree of face asymmetry in that image is measured and the results are output.
 
 In the art recommendation test, we use OpenCV to analyze facial features like skin tone, hair color, emotion, beard presence, and hair length, providing personalized artwork suggestions based on these unique traits.
 
